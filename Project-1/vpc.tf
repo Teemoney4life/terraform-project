@@ -1,6 +1,6 @@
 
 resource "aws_vpc" "FirstVPC" {
-  cidr_block = "192.168.0.0/24"
+  cidr_block = var.FirstVPC
     tags = {
         "Name" = "Firstvpc"
    }
